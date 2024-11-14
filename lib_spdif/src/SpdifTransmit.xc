@@ -27,7 +27,7 @@ void spdif_tx_port_config(out buffered port:32 p, clock clk, in port p_mclk, uns
     /* Clock S/PDIF tx port from MClk */
     configure_out_port_no_ready(p, clk, 0);
 
-    /* Set delay to align SPDIF output to the clock at the external flop */
+    /* Set delay to align S/PDIF output to the clock at the external flop */
     set_clock_fall_delay(clk, delay);
 
     /* Note, we do not start the clock to allow sharing of the clock-block */

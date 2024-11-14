@@ -112,7 +112,7 @@ static inline int spdif_rx_check_parity(unsigned sample)
 
 /** S/PDIF transmit configure port function
  *
- * This function configures a port to be used by the SPDIF transmit
+ * This function configures a port to be used by the S/PDIF transmit
  * function.
  *
  * This function takes a delay for the clock that is to be passed into
